@@ -1,0 +1,678 @@
+@charset "utf-8";
+/* CSS Document */
+#contactInfo{
+	display:flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-flow: row wrap;
+}
+h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	border: 3px solid black;
+	display: block;
+	background: linear-gradient(to bottom left, rgba(77, 163, 255, 0.42), rgba(0, 106, 235, 0.79));
+}
+h2{
+	
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	-ms-transform: translate(-40%, 0%);
+	-webkit-transform: translate(-40%, 0%);
+	transform: translate(-40%, 0%);
+	position: relative;
+	display: block;
+}
+/*h3{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	top:-40px;
+	position: relative;
+	display: block;
+}
+h4{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 16px;
+	left: 35%;
+	top:-80px;
+	position: relative;
+	display: block;
+}*/
+#picture {
+	background-image: url("twinnie.jpg");
+	width: 300px;
+    height: 300px;
+	border: 5px solid white;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;	
+    position: relative;
+	margin: auto;
+	display: block;
+
+
+	background-size: contain;
+	/*z-index: 1;*/
+}
+.contact{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin: auto;
+	display: block;
+	
+}
+img {
+	position: relative;
+	margin: auto;
+	
+	
+}
+
+#img1 {
+	-ms-transform: rotate(340deg);
+	-webkit-transform: rotate(340deg);
+	transform: rotate(340deg);
+	transform-origin: 50% 50%;
+	top: 350px;
+    left: 5px;
+	
+}
+
+#img2 {
+	top: 370px;
+	left:85px;
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+	transform-origin: 50% 50%;
+}
+
+#img3 {
+	top: 430px;
+	left: 180px;
+	transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+}
+
+.center {
+	width: 600px;
+	height: 600px;
+	padding-bottom: 10%;
+	position: relative;
+	margin: auto;
+}
+
+h5 {
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	transform: rotate(70deg);
+	top: 520px;
+	left: -38%;
+	position: relative;
+}
+h6{
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	top: 450px;
+	left: 200px;
+	margin: auto;
+	position: relative;
+}
+h7, #activites{
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-webkit-transform: rotate(-70deg);
+	transform-origin: 50% 50%;
+	top: 230px;
+	left: 400px;
+	position: relative;
+}
+h8, #robotics{
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(250deg);
+	-ms-transform: rotate(250deg);
+	-webkit-transform: rotate(250deg);
+	top: 149px;
+	left: 470px;
+	position: relative;
+}
+
+#img4{
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	top: 180px;
+	left: 500px;
+	position: relative;
+}
+#img5{
+	transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	position: relative;
+	top: 260px;
+	left: 285px;
+}
+h9, #science_olympiad{
+	position: relative;
+	top: 285px;
+	left: 190px;
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-webkit-transform: rotate(-70deg);
+}
+#img6{
+	transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	-webkit-transform: rotate(70deg);
+	top:340px;
+	left:130px;
+	position: relative;
+}
+
+h10, #girl_scouts{
+	position: relative;
+	top:64%;
+	left: 100%;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+
+}
+
+h11 {
+	position: relative;
+	top: 180px;
+	left: -510px;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(110deg);
+	-ms-transform: rotate(110deg);
+	-webkit-transform: rotate(110deg);
+}
+
+h12 {
+	position: relative;
+	top: 330px;
+	left: -580px;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font: bold;
+	transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	-webkit-transform: rotate(70deg);
+}
+h13 {
+	position: relative;
+	top: 435px;
+	left: -580px;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 16px;
+	font: bold;
+	transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+}
+h14 {
+	position: relative;
+	top: 530px;
+	left: -255px;
+	letter-spacing:1.5px;
+	font-family: Helvetica;
+	font-size: 16px;
+	font: bold;
+	transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+}
+h15{
+	position: relative;
+	top: 560px;
+	left: -190px;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 16px;
+	font: bold;
+}
+h16{
+	position: relative;
+	top: 480px;
+	left: 440px;
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 16px;
+	font: bold;
+	transform: rotate(-50deg);
+	-ms-transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+}
+p{
+	font-family: Helvetica;
+	font-size:22px;
+	padding-top: 10px;
+	padding-left: 35px;
+	
+}
+#extra{
+	top:0%;
+	position: relative;
+	display: none;
+}
+
+#img7{
+	transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	position: relative;
+	top: 190px;
+	left: -140px;
+}
+#img8{
+	transform: rotate(340deg);
+	-ms-transform: rotate(340deg);
+	-webkit-transform: rotate(340deg);
+	positon: relative;
+	top: 290px;
+	left: -240px;
+}
+#img9{
+	transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-webkit-transform: rotate(-70deg);
+	top: 370px;
+	left: -270px;
+	position: relative;
+}
+
+#img10 {
+	top: 472px;
+	left: 110px;
+	margin: auto;
+	position: relative;
+	transform: rotate(-40deg);
+}
+#img11 {
+	top: 490px;
+	left: 150px;
+	margin: auto;
+	position: relative;
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+#img12 {
+	top: 475px;
+	left: 185px;
+	margin: auto;
+	position: relative;
+	transform: rotate(40deg);
+	-ms-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+}
+
+#me{
+	top:120px;
+	left: 74%;
+	position: absolute;
+}
+
+.skills_text{
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 24px;
+	font: bold;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+li{
+	letter-spacing:1px;
+	font-family: Helvetica;
+	margin: auto;
+	font-size: 20px;
+	color: black;
+	font: bold;
+	position: relative;
+	left:35px;
+}
+ul2{
+	letter-spacing:0.5px;
+	font-family: Helvetica;
+	margin: auto;
+	font-size: 18px;
+	color: white;
+	font: bold;
+	position: relative;
+}
+
+#about_me2{
+left:2%;
+position: absolute;
+background-color: #DDDDDD;
+border: 2px solid black;
+width: 70%;
+height: 420px;
+}
+
+#interests{	
+-webkit-transform: translate(50%, -182%);
+transform: translate(50%, -182%);
+position: relative;
+}
+
+#academics-title{
+	letter-spacing: 3px;
+	font-family: Helvetica;
+	font-size: 24px;
+	position: absolute;
+	top:560px;
+	left: 30%;
+	margin: auto;
+	
+}
+.classes{
+	position: absolute;
+	background-color: #FF4F4F;
+	border: 2px solid #FF1A1A;
+	width: 33%;
+	height: 250px;
+}
+.skills_text2{
+	letter-spacing:3px;
+	font-family: Helvetica;
+	font-size: 24px;
+	font: bold;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 35px;
+	color: white;
+}
+
+#taken{
+	left: 2%;
+	top: 600px;
+}
+
+#taking{
+	left:37%;
+	top:600px;
+	
+}
+.circle{
+	width: 70px;
+	height: 70px;
+	border: 3px black dashed;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;		
+}
+#spotlight{
+	top:440px;
+	left: 80%;
+	margin: auto;	
+}
+#essay1{
+	background-image: url("writing1.jpg");
+	background-size: contain;
+	top:600px;
+	left:72%;
+	position: absolute;
+}
+
+#essay2{
+	background-image: url("writing2.jpg");
+	background-size: contain;
+	top:685px;
+	left:72%;
+	position: absolute;
+	
+}
+
+#essay3{
+	background-image: url("writing3.jpg");
+	background-size: contain;
+	top:770px;
+	left: 72%;
+	position: absolute;
+}
+
+writing{
+	letter-spacing:1px;
+}
+
+#essay1-text{
+	top:620px;
+	left:80%;
+	font-family: Helvetica;
+	position: absolute;
+	font-size: 20px;
+}
+#essay-text2{
+	top:705px;
+	left:80%;
+	font-family: Helvetica;
+	position: absolute;
+	font-size: 20px;
+}
+#essay3-text{
+	top:790px;
+	left:80%;
+	font-family: Helvetica;
+	position: absolute;
+	font-size: 18px;
+
+}
+.carbon-copy-title{
+	letter-spacing:1px;
+	font-family: Helvetica;
+	font-size: 24px;
+	font: bold;
+	left:35%;
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+.essays{
+	width: 90%;
+	height: 900px;
+	left: 5%;
+	position: absolute;
+	background-color: #DDDDDD;
+	border: 2px solid black;
+}
+.essays_paragraph{
+	font-family: Helvetica;
+	font-size: 20px;
+	left:-10px;
+	position: absolute;
+	padding-bottom: 10px;
+}
+#gwcteampic{
+	border: 3px double black;
+}
+#gwclogo{
+	top:-355px;
+	left: 2%;
+	position: absolute;
+}
+#mslogo{
+	top:-360px;
+	left: 55%;
+	position: absolute;
+}
+#gwc-text1{
+	background-color: #FF4F4F;
+	border: 2px solid #FF1A1A;
+	width: 650px;
+	height: 224px;
+	top: -230px;
+	left: 2%;
+	position: absolute;
+}
+.general{
+	font: Helvetica;
+	font-size: 18px;
+	left:-20px;
+	color:white;
+	position: absolute;
+	width: 605px;
+	height: 275px;
+}
+#gwc1{
+	height:600px;
+	width:600px;
+	left: 615px;
+	position: absolute;
+}
+#gwc-text2{
+	width: 605px;
+	height: 290px;
+	top:440px;
+	position:absolute;
+	background-color: #FF4F4F;
+	border: 2px solid #FF1A1A;
+}
+#gwc2{
+	position:absolute;
+	top:30px;
+}
+.circle2{
+	width: 200px;
+	height: 200px;
+	border: 3px black dashed;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+#pic1{
+	background-image: url('binary.jpg');
+	background-size: contain;
+	top:450px;
+	position:absolute;
+	left:650px;
+}
+#pic2{
+	background-image: url('binary.jpg');
+	background-size: contain;
+	top:450px;
+	left:1050px;
+	position: absolute;
+}
+#gwc-body{
+	height: 800px;
+}
+.gwc-links{
+	font-family: Helvetica;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+}
+#projects{
+	top: 500px;
+	left:900px;
+}
+#final-project{
+	top:600px;
+	left:900px;
+}
+#group{
+	position: absolute;
+	border: 3px double black;
+	top:740px;
+}
+#mentoring{
+	position:absolute;
+	border: 3px double black;
+	top:740px;
+	left:520px;
+}
+#projects-text{
+	font-family: Gill Sans MT;
+	font-size: 28px;
+	color: #FF1A1A;
+	letter-spacing: 1px;
+	position: absolute;
+	text-decoration: underline;
+	left:100px;
+	top:110px;
+}
+#projects-image{
+	top:150px;
+	left:10%;
+	position: absolute;
+	border: 4px dashed black;
+}
+#projects-text2{
+	border: 3px solid black;
+	background-color: #DDDDDD;
+	position: relative;
+	top:500px;
+	left: 9.5%;
+	width: 1000px;
+	height: 200px;
+}
+#projects-title{
+	font-family: Helvetica;
+	font-size: 24px;
+	letter-spacing: 2px;
+	color: black;
+	padding-left: 10px;
+	top:10px;
+}
+#projects-paragraph{
+	font-family: Helvetica;
+	font-size:18px;
+	color: black;
+}
+#next{
+	left: 1147px;
+	top: 361px;
+	position: absolute;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #00CC00;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	width: 100px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#next:hover{
+ 	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #f44336;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+ }
